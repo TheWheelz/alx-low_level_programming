@@ -1,15 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - This prints the void.
- * @void: This prints the message.
- *
- * Description: prints with proper grammar,
- * but the outcome is a piece of art.
- *
- * Returns 0
+ * main -prints the phrase with proper grammar
+ * but the outcome is a piece of art,
+ * Return: 0 if exited properly, non-zero otherwise
  */
-void main(void)
+int main(void);
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
