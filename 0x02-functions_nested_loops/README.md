@@ -1,1 +1,1 @@
-This is a directory which contains programs and commands for nested loops
+This folder  is a directory which contains programs and commands for nested loops
