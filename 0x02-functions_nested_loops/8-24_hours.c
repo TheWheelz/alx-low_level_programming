@@ -20,7 +20,7 @@ void jack_bauer(void)
 		{
 		if (i == 2 && j > 3)
 		{
-		breadk;
+		break;
 		}
 		_putchar(i + '0');
 		_putchar(j + '0');
