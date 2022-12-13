@@ -13,7 +13,7 @@
 int main(void)
 
 	{
-		char ch  'a';
+		char ch = 'a';
 
 		while (ch <= 'z')
 		{
