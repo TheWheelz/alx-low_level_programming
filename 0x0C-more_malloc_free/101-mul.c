@@ -93,19 +93,15 @@ void multiply(char *s1, char *s2)
 		if (res)
 			ptr[l1 + l2 + 1] = res % 10;
 	}
-
 	while (*ptr == 0)
 	{
-		ptr++;
+	ptr++;
 		total_l--;
 	}
-
 	for (i = 0; i < total_l; i++)
 		printf("%i", ptr[i]);
 	printf("\n");
-
 	free(temp);
-
 }
 
 /**
