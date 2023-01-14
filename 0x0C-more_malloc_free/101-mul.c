@@ -103,7 +103,7 @@ int main(int argc, char *argv[])
 	for (; k >= 0; k--, i--)
 	{
 		if (i < 0)
-{
+		{
 			if (addl > 0)
 			{
 				add = (nout[k] - '0') + addl;
@@ -118,13 +118,13 @@ int main(int argc, char *argv[])
 			if (nout[0] != '0')
 				break;
 			lnout--;
-free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnout);
-		k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
+			free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnout);
+			k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
 		}
 		if (j >= 0)
 		{
-			add = ((argv[1][i] - '0') * (argv[2][j] - '0')) + (nout[k] - '0') + addl;
-			addl = add / 10, nout[k] = (add % 10) + '0';
+		add = ((argv[1][i] - '0') * (argv[2][j] - '0')) + (nout[k] - '0') + addl;
+		addl = add / 10, nout[k] = (add % 10) + '0';
 		}
 	}
 	printf("%s\n", nout);
